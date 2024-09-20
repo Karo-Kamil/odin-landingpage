@@ -1,0 +1,138 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    font-family:"Roboto", sans-serif;
+}
+
+img {
+    max-width: 220px;
+    border-radius: 20px;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 24px;
+    background-color: #1F2937;
+    height: 6vh;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    margin:auto 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: auto 0;
+}
+
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    height: 55vh;
+    gap: 48px;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.big-hero{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.small-hero{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 16px 0;
+}
+
+.hero-text{
+    width: 27vw;
+    margin: auto 0;
+}
+
+button{
+    padding:8px 32px;
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.hero-image{
+    width: 27vw;
+    height: 24vh;
+    margin: auto 0;
+    color: #E5E7EB;
+    text-align: center;
+    background-color: rgb(102, 117, 134);
+    vertical-align: middle;
+    line-height: 24vh;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    align-items: center ;
+    gap: 48px;
+}
+
+.ills{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px
+}
+
+.info-text{
+    font-size: 42px;
+    font-weight: 900;
+    margin-top: 48px;
+}
+
+.ills div{
+    width: 220px;
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.review{
+    height: 40vh;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 19vw;
+    
+}
+
+.review-text{
+    font-size: 36px;
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.review-author{
+    font-size: 24px;
+    margin: 0 32px 0 auto;
+    font-weight: 800;
+}
+
